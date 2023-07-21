@@ -1,4 +1,4 @@
-# MongoDB.Driver.AspNetCore
+# MongoDBDriver.AspNetCore
 ### 简介
 
 #### MongoDB.Driver  Asp.Net Core 服务注册
@@ -8,13 +8,13 @@
 - [Package Manager](https://www.nuget.org/packages/MongoDB.Driver.AspNetCore)
 
 ```
-Install-Package MongoDB.Driver.AspNetCore
+Install-Package MongoDBDriver.AspNetCore
 ```
 
 - [.NET CLI](https://www.nuget.org/packages/FreeRedis.AspNetCore)
 
 ```
-dotnet add package MongoDB.Driver.AspNetCore
+dotnet add package MongoDBDriver.AspNetCore
 ```
 
 2. 创建上下文类继承MongoDbContext

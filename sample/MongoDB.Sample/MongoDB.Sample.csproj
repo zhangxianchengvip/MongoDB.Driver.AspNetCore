@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MongoDB.Driver.AspNetCore\MongoDB.Driver.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\src\MongoDB.Driver.AspNetCore\MongoDBDriver.AspNetCore.csproj" />
   </ItemGroup>
 
 </Project>

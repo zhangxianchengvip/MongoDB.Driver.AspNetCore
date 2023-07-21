@@ -5,11 +5,11 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{359D73EF-9F8A-437D-9A40-1B491E2160EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB.Driver.AspNetCore", "src\MongoDB.Driver.AspNetCore\MongoDB.Driver.AspNetCore.csproj", "{0C9DDB37-09A2-41F7-A469-317950AF49F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDBDriver.AspNetCore", "src\MongoDB.Driver.AspNetCore\MongoDBDriver.AspNetCore.csproj", "{0C9DDB37-09A2-41F7-A469-317950AF49F4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{5FC750DE-D4D6-4E64-AA39-2526BC1B5DA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB.Sample", "sample\MongoDB.Sample\MongoDB.Sample.csproj", "{D3512A17-845B-40AF-8D79-AFAABCD4A995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDB.Sample", "sample\MongoDB.Sample\MongoDB.Sample.csproj", "{D3512A17-845B-40AF-8D79-AFAABCD4A995}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

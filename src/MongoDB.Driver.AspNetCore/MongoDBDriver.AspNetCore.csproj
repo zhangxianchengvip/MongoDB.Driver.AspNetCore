@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>MongoDB</Title>
+    <Authors>zhangxiancheng</Authors>
+    <Description>MongoDB asp.net core 服务注册</Description>
+    <PackageProjectUrl>https://github.com/zhangxianchengvip/MongoDB.Driver.AspNetCore</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/zhangxianchengvip/MongoDB.Driver.AspNetCore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>MongoDB.Driver;MongoDB</PackageTags>
+    <PackageReleaseNotes>MongoDB asp.net core 服务注册</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.20.0" />
+  </ItemGroup>
+
+</Project>
