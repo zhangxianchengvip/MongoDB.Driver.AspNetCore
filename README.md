@@ -36,7 +36,7 @@ public class TestMongoDbContext : MongoDbContext
 }
 ```
 
-3. 注册 MongoDB.Driver.AspNetCore
+3. 注册 MongoDBDriver.AspNetCore
 
 ```c#
 builder.Services.AddMongoDbContext<TestMongoDbContext>("mongodb://localhost:27017/", "Test");
