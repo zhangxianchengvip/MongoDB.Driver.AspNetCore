@@ -8,7 +8,7 @@ namespace MongoDB.Driver.AspNetCore.MongoDB.Driver.AspNetCore
     {
         IMongoClient Client { get; }
         IMongoDatabase Database { get; }
-        IMongoCollection<TDocument> GetCollection<TDocument>();
         IMongoCollection<TDocument> GetCollection<TDocument>(string name);
+        void DropCollection(string name);
     }
 }

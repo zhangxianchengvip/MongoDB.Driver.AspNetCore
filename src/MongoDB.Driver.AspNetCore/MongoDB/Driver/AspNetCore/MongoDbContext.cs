@@ -21,15 +21,14 @@ namespace MongoDB.Driver.AspNetCore.MongoDB.Driver.AspNetCore
             Client = new MongoClient(settings);
             Database = Client.GetDatabase(database);
         }
-
-        public IMongoCollection<TDocument> GetCollection<TDocument>()
-        {
-            return GetCollection<TDocument>(name: typeof(TDocument).Name);
-        }
-
         public IMongoCollection<TDocument> GetCollection<TDocument>(string name)
         {
             return Database.GetCollection<TDocument>(name);
+        }
+
+        public void DropCollection(string name)
+        {
+            Database.DropCollection(name);
         }
     }
 }
