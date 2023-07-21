@@ -5,13 +5,13 @@
 
 1. 安装
 
-- [Package Manager](https://www.nuget.org/packages/MongoDB.Driver.AspNetCore)
+- [Package Manager](https://www.nuget.org/packages/MongoDBDriver.AspNetCore)
 
 ```
 Install-Package MongoDBDriver.AspNetCore
 ```
 
-- [.NET CLI](https://www.nuget.org/packages/FreeRedis.AspNetCore)
+- [.NET CLI](https://www.nuget.org/packages/MongoDBDriver.AspNetCore)
 
 ```
 dotnet add package MongoDBDriver.AspNetCore
